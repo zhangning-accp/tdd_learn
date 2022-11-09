@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tdd-day2" />
+        <module name="tdd-day1" />
+        <module name="tdd-day4" />
+        <module name="tdd-day3" />
+        <module name="tdd_learn" />
+        <module name="tdd-day5" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="tdd-day1" target="8" />
+      <module name="tdd-day2" target="1.5" />
+      <module name="tdd-day3" target="8" />
+      <module name="tdd-day4" target="1.5" />
+      <module name="tdd-day5" target="1.5" />
+      <module name="tdd_learn" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+# Project exclude paths
+/tdd-day1/target/
+/tdd-day2/target/
+/tdd-day4/target/
