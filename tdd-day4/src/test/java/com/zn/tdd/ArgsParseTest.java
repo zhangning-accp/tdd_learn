@@ -212,7 +212,7 @@ public class ArgsParseTest {
         Integer [] obj = (Integer[])  map.get("d");
 
         Assert.assertTrue(obj[1].intValue() == -3);
-        
+
     }
 
 
