@@ -42,7 +42,7 @@ public class ArgsParseTest {
     String command = "-l -p 8080 -d /usr/logs";
 
     Schema [] schemas = new Schema[]{
-            new Schema("l", Boolean.class),
+            new Schema("l",Boolean.class),
             new Schema("p",Integer.class),
             new Schema("d",String.class),
             new Schema("g",String [].class),
@@ -129,7 +129,6 @@ public class ArgsParseTest {
         Assert.assertEquals(testMap,map);
 
     }
-
 
     @Test
     public void parse_map_with_command_line_string_is_not_empty() {

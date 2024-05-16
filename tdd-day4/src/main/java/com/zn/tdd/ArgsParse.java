@@ -94,7 +94,7 @@ public class ArgsParse {
         return map;
     }
 
-    public static Object getCommandValue(String command,int start,int end,Schema schema){
+    private static Object getCommandValue(String command,int start,int end,Schema schema){
         Object value;
         String tmpString = command.substring(start,end);
         tmpString = tmpString.trim();
